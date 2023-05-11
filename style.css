@@ -75,7 +75,7 @@
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 860px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -94,7 +94,7 @@
     position: absolute;
     top: -1000px;
     opacity: 0;
-    background: #131313;
+    background: transparent;
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
@@ -120,15 +120,6 @@
     margin: 5px auto;
     transition: all 0.3 ease-in-out;
     background: #fff;
-  }
-  .navbar__item {
-    width: 100%;
-  }
-  .navbar__links {
-    text-align: center;
-    padding: 2rem;
-    width: 100%;
-    display: table;
   }
 
   #mobile-menu {
