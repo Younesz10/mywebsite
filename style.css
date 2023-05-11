@@ -303,12 +303,12 @@
   }
 
   .main__content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main__content p {
     margin-top: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .main__btn {
@@ -361,4 +361,8 @@
   width: 100%;
   max-width: 1000px;
   margin-bottom: 2rem;
+}
+
+.about p {
+  font-size: 1.2rem;
 }
