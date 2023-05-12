@@ -238,6 +238,13 @@
   position: relative;
 }
 
+.main__content p {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  position: relative;
+  width: 800px;
+}
+
 .main__content {
   margin-top: 2rem;
   font-size: 1.5rem;
