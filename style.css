@@ -321,7 +321,7 @@
 
   .main__content p {
     font-size: 1.5rem;
-    width: 370px;
+    width: 450px;
   }
 }
 
@@ -336,7 +336,8 @@
   }
 
   .main__content p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    width: 370px;
   }
 
   .main__btn {
