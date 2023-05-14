@@ -77,7 +77,6 @@
 
 @media screen and (max-width: 960px) {
   .navbar {
-    background-color: transparent;
     height: 0px;
   }
 
@@ -87,8 +86,8 @@
   .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
     z-index: 1;
+    height: 60px;
     width: 100%;
     max-width: 1300px;
     padding: 0;
@@ -97,15 +96,16 @@
   .navbar__menu {
     display: grid;
     grid-template-columns: auto;
-    margin: 0;
-    width: 100%;
+    margin: 15px;
+    width: 92%;
     position: absolute;
     top: -1000px;
     opacity: 0;
     background: #131313;
     transition: all 0.5s ease;
-    height: 50vh;
+    height: 60vh;
     z-index: -1;
+    border-radius: 8px;
   }
 
   .navbar__menu.active {
@@ -115,14 +115,12 @@
     transition: all 0.5s ease;
     z-index: 99;
     height: 50vh;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
-  #navbar__logo {
-    padding-left: 25px;
-  }
   .navbar__toggle {
     margin-top: 15px;
+    z-index: 999;
   }
   .navbar__toggle .bar {
     width: 25px;
@@ -144,7 +142,7 @@
   #mobile-menu {
     position: absolute;
     top: 20%;
-    right: 5%;
+    right: 6%;
     transform: translate(5%, 20%);
     display: block;
   }
