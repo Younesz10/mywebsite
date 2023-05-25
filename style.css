@@ -455,5 +455,6 @@
     border-radius: 50%;
     margin-bottom: 40px;
     object-fit: cover;
+    background-image: url(/images/me.jpg);
   }
 }
