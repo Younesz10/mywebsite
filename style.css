@@ -491,7 +491,15 @@
   margin-bottom: 2rem;
 }
 
-.capstone__project__images img {
+.carousel {
+  display: flex;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  transition: transform 1s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -500,6 +508,12 @@
   height: 480px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin: auto;
+}
+.carousel img.active {
+  opacity: 1;
+}
+.carousel button {
+  margin-top: 10px;
 }
 
 .capstone__project__images h1 {
@@ -512,4 +526,19 @@
   -moz-text-fill-color: transparent;
   font-weight: 550;
   position: relative;
+}
+
+#prevBtn,
+#nextBtn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #ccc;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+  background-color: #aaa;
 }
