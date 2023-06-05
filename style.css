@@ -640,6 +640,8 @@
   border-color: #131313;
   border-width: 1px;
   font-size: 1rem;
+  align-items: center;
+  color: #141414;
 }
 
 @media screen and (max-width: 960px) {
