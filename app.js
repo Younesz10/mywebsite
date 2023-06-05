@@ -46,3 +46,16 @@ function showSlide() {
 }
 
 showSlide();
+
+var toggleButton = document.getElementById("toggleButton");
+var capstoneProject = document.getElementById("capstone__project");
+
+toggleButton.addEventListener("click", function () {
+  if (capstoneProject.classList.contains("show")) {
+    capstoneProject.classList.remove("show");
+    toggleButton.textContent = "Read more";
+  } else {
+    capstoneProject.classList.add("show");
+    toggleButton.textContent = "Read less";
+  }
+});
