@@ -20,59 +20,62 @@
       rel="stylesheet"
     />
   </head>
-  <!-- navbar section -->
-  <nav class="navbar">
-    <div class="navbar__container">
-      <a href="/" id="navbar__logo">YOUNES ZIEWKI</a>
-      <div class="navbar__toggle" id="mobile-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
+
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo">YOUNES ZIEWKI</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/index.html#about" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/index.html#capstone__project" class="navbar__links"
+              >Capstone Project</a
+            >
+          </li>
+          <li class="navbar__item">
+            <a href="/contact.html" class="navbar__links">Contact</a>
+          </li>
+        </ul>
       </div>
-      <ul class="navbar__menu">
-        <li class="navbar__item">
-          <a href="/" class="navbar__links">Home</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/index.html#about" class="navbar__links">About</a>
-        </li>
-        <li class="navbar__item">
-          <a href="/index.html#capstone__project" class="navbar__links"
-            >Capstone Project</a
-          >
-        </li>
-        <li class="navbar__item">
-          <a href="/contact.html" class="navbar__links">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
 
-  <div class="contact">
-    <div class="contact__container">
-      <div class="contact__form">
-        <h1>Contact Me</h1>
-        <form action="/submit_contact_form" method="post">
-          <div class="name__container">
-            <label for="firstName">First Name:</label>
-            <input type="text" id="firstName" name="firstName" required />
+    <div class="contact">
+      <div class="contact__container">
+        <div class="contact__form">
+          <h1>Contact Me</h1>
+          <form action="/submit_contact_form" method="post">
+            <div class="name__container">
+              <label for="firstName">First Name:</label>
+              <input type="text" id="firstName" name="firstName" required />
 
-            <label for="lastName">Last Name:</label>
-            <input type="text" id="lastName" name="lastName" required />
-          </div>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
+              <label for="lastName">Last Name:</label>
+              <input type="text" id="lastName" name="lastName" required />
+            </div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
 
-          <label for="company">Company:</label>
-          <input type="text" id="company" name="company" />
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company" />
 
-          <label for="message">Message:</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-          <br />
-          <input type="submit" value="Submit" />
-        </form>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
     </div>
-  </div>
-  <body></body>
+    <script src="app.js"></script>
+  </body>
 </html>
