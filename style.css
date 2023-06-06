@@ -402,7 +402,22 @@
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 300px;
+}
+
+.LinkedIn {
+  margin-bottom: 240px;
+  cursor: pointer;
+}
+
+.LinkedIn a {
+  color: blue; /* Change the color to your desired style */
+  text-decoration: none; /* Remove underline */
+}
+
+.LinkedIn img {
+  width: 150px; /* Adjust the width as needed */
+  height: 35px; /* Adjust the height as needed */
+  border-radius: 0%;
 }
 
 @media screen and (max-width: 960px) {
@@ -450,8 +465,17 @@
     width: 305px;
     height: 260px;
     border-radius: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     object-fit: cover;
+  }
+  .LinkedIn {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .LinkedIn img {
+    width: 150px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    border-radius: 0%;
   }
 }
 
