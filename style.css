@@ -349,6 +349,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  -webkit-touch-callout: none; /* Disable touch callout on iOS */
+  -webkit-user-select: none; /* Disable text selection on iOS Safari */
+  -khtml-user-select: none; /* Disable text selection on Konqueror HTML */
+  -moz-user-select: none; /* Disable text selection on Firefox */
+  -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+  user-select: none; /* Disable text selection on other browsers */
+  pointer-events: none; /* Disable mouse events */
 }
 
 .about h1 {
@@ -388,6 +395,13 @@
   width: 100%;
   max-width: 1000px;
   margin-bottom: 2rem;
+  -webkit-touch-callout: none; /* Disable touch callout on iOS */
+  -webkit-user-select: none; /* Disable text selection on iOS Safari */
+  -khtml-user-select: none; /* Disable text selection on Konqueror HTML */
+  -moz-user-select: none; /* Disable text selection on Firefox */
+  -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+  user-select: none; /* Disable text selection on other browsers */
+  pointer-events: none; /* Disable mouse events */
 }
 
 .about p {
@@ -396,7 +410,15 @@
   text-align: left;
   margin-left: 80px;
 }
-
+.about__image {
+  -webkit-touch-callout: none; /* Disable touch callout on iOS */
+  -webkit-user-select: none; /* Disable text selection on iOS Safari */
+  -khtml-user-select: none; /* Disable text selection on Konqueror HTML */
+  -moz-user-select: none; /* Disable text selection on Firefox */
+  -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+  user-select: none; /* Disable text selection on other browsers */
+  pointer-events: none; /* Disable mouse events */
+}
 .about__image img {
   width: 305px;
   height: 260px;
@@ -467,13 +489,6 @@
     border-radius: 50%;
     margin-bottom: 20px;
     object-fit: cover;
-    -webkit-touch-callout: none; /* Disable touch callout on iOS */
-    -webkit-user-select: none; /* Disable text selection on iOS Safari */
-    -khtml-user-select: none; /* Disable text selection on Konqueror HTML */
-    -moz-user-select: none; /* Disable text selection on Firefox */
-    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
-    user-select: none; /* Disable text selection on other browsers */
-    pointer-events: none; /* Disable mouse events */
   }
   .LinkedIn {
     margin-bottom: 0;
