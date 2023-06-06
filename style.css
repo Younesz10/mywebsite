@@ -467,6 +467,13 @@
     border-radius: 50%;
     margin-bottom: 20px;
     object-fit: cover;
+    -webkit-touch-callout: none; /* Disable touch callout on iOS */
+    -webkit-user-select: none; /* Disable text selection on iOS Safari */
+    -khtml-user-select: none; /* Disable text selection on Konqueror HTML */
+    -moz-user-select: none; /* Disable text selection on Firefox */
+    -ms-user-select: none; /* Disable text selection on Internet Explorer/Edge */
+    user-select: none; /* Disable text selection on other browsers */
+    pointer-events: none; /* Disable mouse events */
   }
   .LinkedIn {
     margin-bottom: 0;
