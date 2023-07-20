@@ -768,3 +768,28 @@
   margin-top: 20px;
   margin-bottom: 5px;
 }
+
+footer {
+  padding: 20px;
+  background-color: #131313;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  font-size: 15px;
+  display: flex;
+}
+
+@media screen and (max-width: 765px) {
+  footer {
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+}
